@@ -40,3 +40,39 @@
     color: #FFD700;
     text-shadow: 0 0 10px #FFD700;
 }
+/* SECTION SERVICES */
+.services {
+    margin-top: 140px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #FFD700;
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service-item {
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.service-item h3 {
+    color: #FFD700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #fff;
+    font-size: 18px;
+}
