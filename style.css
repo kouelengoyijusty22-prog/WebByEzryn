@@ -112,3 +112,36 @@
     color: #fff;
     font-size: 18px;
 }
+/* SECTION CONTACT */
+.contact {
+    margin-top: 140px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-info p {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+}
