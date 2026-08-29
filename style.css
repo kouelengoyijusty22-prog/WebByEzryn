@@ -1,1 +1,42 @@
 
+/* MENU FIXE EN HAUT */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    border-bottom: 1px solid #222;
+}
+
+/* LOGO À GAUCHE */
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFD700; /* OR */
+    letter-spacing: 1px;
+}
+
+/* MENU À DROITE */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* EFFET HOVER OR + NEON */
+.nav-links li a:hover {
+    color: #FFD700;
+    text-shadow: 0 0 10px #FFD700;
+}
