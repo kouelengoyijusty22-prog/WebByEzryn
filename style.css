@@ -76,3 +76,39 @@
     color: #fff;
     font-size: 18px;
 }
+/* SECTION PORTFOLIO */
+.portfolio {
+    margin-top: 140px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    color: #FFD700;
+    margin-bottom: 40px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.portfolio-item {
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.portfolio-item h3 {
+    color: #FFD700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    color: #fff;
+    font-size: 18px;
+}
